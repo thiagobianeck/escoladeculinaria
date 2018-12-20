@@ -7,3 +7,38 @@ body {
     font-family: 'Roboto', sans-serif;
     color:#303030;
 }
+
+.bg-vino {
+    background-image: url(../img/principal1.jpg);
+}
+
+.bg-comida {
+    background-image: url(../img/principal2.jpg);
+}
+
+.imagen {
+    background-size: cover;
+    background-position: top center;
+}
+
+.imagen-superior > div,
+.imagen-inferior > div {
+    height: 30rem;
+}
+
+@media (min-width: 768px) {
+    .imagen-superior > div,
+    .imagen-inferior > div {
+        height: 45rem;
+    }
+}
+
+.imagen-inferior .bg-comida{
+    order: 1;
+}
+
+@media (min-width: 768px) {
+    .imagen-inferior .bg-comida{
+        order: unset;
+    }
+}
