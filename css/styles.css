@@ -163,3 +163,13 @@ p {
     border-color: #d84749;
 }
 
+/** Footer **/
+.footer {
+    border-bottom: 10px solid var(--primario);
+}
+
+.copyright {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
